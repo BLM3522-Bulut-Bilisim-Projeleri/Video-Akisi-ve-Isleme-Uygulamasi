@@ -77,7 +77,7 @@ Ardından tarayıcınızdan `http://localhost:8000/live` adresini ziyaret edin.
 
 ---
 
-## 📷 API Entegrasyonu
+## API Entegrasyonu
 
 Google Cloud Video Intelligence API'den etiket, nesne, zaman bilgisi alınır.
 `gcloud_vision.py` içinde API çağrıları yapılır ve analiz sonucu JSON olarak döner.
