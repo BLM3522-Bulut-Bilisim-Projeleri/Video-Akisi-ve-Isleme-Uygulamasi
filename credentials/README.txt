@@ -1,0 +1,1 @@
+Bu klasörün içerisinde Google Cloud üzerinden alınmış service key(JSON) bulunmaktadır.

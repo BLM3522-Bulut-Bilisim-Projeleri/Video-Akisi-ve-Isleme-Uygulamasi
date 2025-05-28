@@ -1,0 +1,88 @@
+127.0.0.1 - - [19/May/2025:11:25:03 +0300] "GET / HTTP/1.1" 200 5859 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+127.0.0.1 - - [19/May/2025:11:25:03 +0300] "GET /history/history.css HTTP/1.1" 404 572 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+127.0.0.1 - - [19/May/2025:11:25:03 +0300] "GET /history/history.js HTTP/1.1" 404 572 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+127.0.0.1 - - [19/May/2025:11:25:03 +0300] "GET /swfobject.js HTTP/1.1" 200 10220 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+127.0.0.1 - - [19/May/2025:11:25:03 +0300] "GET /favicon.ico HTTP/1.1" 404 572 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+127.0.0.1 [19/May/2025:11:32:26 +0300] PLAY "live" "test" "" - 410 4777 "" "LNX 9,0,124,2" (5s)
+127.0.0.1 - - [19/May/2025:11:34:58 +0300] "GET /stat HTTP/1.1" 200 569 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+127.0.0.1 - - [19/May/2025:11:34:58 +0300] "GET /stat.xsl HTTP/1.1" 200 11765 "http://localhost:8080/stat" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+127.0.0.1 [19/May/2025:11:36:20 +0300] PUBLISH "live" "test" "" - 176662859 529 "" "FMLE/3.0 (compatible; FMSc/1.0)" (9m 24s)
+127.0.0.1 - - [19/May/2025:11:36:43 +0300] "GET /stat HTTP/1.1" 200 569 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+127.0.0.1 [19/May/2025:11:37:08 +0300] PUBLISH "live" "test" "" - 13498985 529 "" "FMLE/3.0 (compatible; FMSc/1.0)" (44s)
+127.0.0.1 - - [19/May/2025:11:38:24 +0300] "GET /stat HTTP/1.1" 200 571 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+127.0.0.1 [19/May/2025:11:39:40 +0300] PUBLISH "live" "test" "" - 29272956 529 "" "FMLE/3.0 (compatible; FMSc/1.0)" (1m 34s)
+127.0.0.1 - - [19/May/2025:11:43:42 +0300] "GET /stat HTTP/1.1" 200 570 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+127.0.0.1 - - [19/May/2025:11:43:42 +0300] "GET /stat.xsl HTTP/1.1" 304 0 "http://localhost:8080/stat" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+127.0.0.1 [19/May/2025:11:44:27 +0300] PUBLISH "live" "test" "" - 21113475 529 "" "FMLE/3.0 (compatible; FMSc/1.0)" (1m 8s)
+127.0.0.1 - - [19/May/2025:11:52:57 +0300] "GET /stat HTTP/1.1" 200 570 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+127.0.0.1 - - [19/May/2025:11:52:57 +0300] "GET /stat.xsl HTTP/1.1" 304 0 "http://localhost:8080/stat" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+127.0.0.1 [19/May/2025:11:53:36 +0300] PLAY "live" "test" "" - 410 4777 "" "LNX 9,0,124,2" (5s)
+127.0.0.1 [19/May/2025:11:59:24 +0300] PUBLISH "live" "test" "" - 129190926 529 "" "FMLE/3.0 (compatible; FMSc/1.0)" (6m 52s)
+127.0.0.1 - - [19/May/2025:12:03:12 +0300] "GET /stat HTTP/1.1" 200 571 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+127.0.0.1 - - [19/May/2025:12:03:12 +0300] "GET /stat.xsl HTTP/1.1" 304 0 "http://localhost:8080/stat" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+127.0.0.1 [19/May/2025:12:04:22 +0300] PUBLISH "live" "test" "" - 40110727 529 "" "FMLE/3.0 (compatible; FMSc/1.0)" (2m 8s)
+127.0.0.1 - - [19/May/2025:12:05:39 +0300] "GET /stat HTTP/1.1" 200 565 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+127.0.0.1 [19/May/2025:12:06:44 +0300] PUBLISH "live" "test" "" - 23148852 529 "" "FMLE/3.0 (compatible; FMSc/1.0)" (1m 15s)
+127.0.0.1 [19/May/2025:12:10:15 +0300] PLAY "live" "test" "" - 439 2591178 "" "LNX 9,0,124,2" (1m 9s)
+127.0.0.1 - - [19/May/2025:12:10:47 +0300] "GET /hls/test.m3u8 HTTP/1.1" 404 572 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+127.0.0.1 - - [19/May/2025:12:15:34 +0300] "GET /stat HTTP/1.1" 200 574 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+127.0.0.1 - - [19/May/2025:12:15:34 +0300] "GET /stat.xsl HTTP/1.1" 304 0 "http://localhost:8080/stat" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+127.0.0.1 [19/May/2025:12:15:49 +0300] PUBLISH "live" "test" "" - 157514835 529 "" "FMLE/3.0 (compatible; FMSc/1.0)" (8m 22s)
+127.0.0.1 - - [19/May/2025:12:16:15 +0300] "GET /stat HTTP/1.1" 200 569 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+127.0.0.1 [19/May/2025:12:22:04 +0300] PLAY "live" "test" "" - 368 1883315 "" "LNX 9,0,124,2" (25s)
+127.0.0.1 [19/May/2025:12:22:11 +0300] PUBLISH "live" "test" "" - 114689362 529 "" "FMLE/3.0 (compatible; FMSc/1.0)" (6m 6s)
+127.0.0.1 - - [19/May/2025:12:30:33 +0300] "GET /stat HTTP/1.1" 200 568 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+127.0.0.1 - - [19/May/2025:12:30:33 +0300] "GET /stat.xsl HTTP/1.1" 304 0 "http://localhost:8080/stat" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+127.0.0.1 - - [19/May/2025:12:33:09 +0300] "GET /stat HTTP/1.1" 200 574 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+127.0.0.1 - - [19/May/2025:12:34:04 +0300] "GET /stat HTTP/1.1" 200 579 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+127.0.0.1 - - [19/May/2025:12:34:05 +0300] "GET /stat HTTP/1.1" 200 579 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+127.0.0.1 [19/May/2025:12:37:52 +0300] PLAY "live" "test" "" - 410 4777 "" "LNX 9,0,124,2" (5s)
+127.0.0.1 - - [19/May/2025:12:38:27 +0300] "GET /stat HTTP/1.1" 200 580 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+127.0.0.1 - - [19/May/2025:12:40:54 +0300] "GET /stat HTTP/1.1" 200 580 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+127.0.0.1 - - [19/May/2025:12:40:56 +0300] "GET /stat HTTP/1.1" 200 580 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+127.0.0.1 - - [19/May/2025:12:41:04 +0300] "GET /stat HTTP/1.1" 200 580 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+127.0.0.1 - - [19/May/2025:12:43:30 +0300] "GET /stat HTTP/1.1" 200 580 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+127.0.0.1 - - [19/May/2025:12:43:30 +0300] "GET /stat.xsl HTTP/1.1" 200 11764 "http://localhost:8080/stat" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+127.0.0.1 [19/May/2025:12:44:19 +0300] PLAY "live" "test" "" - 539 32461782 "" "LNX 9,0,124,2" (11m 44s)
+127.0.0.1 [19/May/2025:12:44:24 +0300] PUBLISH "live" "test" "" - 228939819 529 "" "FMLE/3.0 (compatible; FMSc/1.0)" (12m 9s)
+127.0.0.1 - - [21/May/2025:21:53:02 +0300] "GET /stat HTTP/1.1" 200 1370 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+127.0.0.1 - - [21/May/2025:21:53:02 +0300] "GET /stat.xsl HTTP/1.1" 304 0 "http://localhost:8080/stat" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+127.0.0.1 - - [21/May/2025:21:53:03 +0300] "GET /favicon.ico HTTP/1.1" 404 572 "http://localhost:8080/stat" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+127.0.0.1 [21/May/2025:21:53:58 +0300] PLAY "live" "test" "" - 430 6940858 "" "LNX 9,0,124,2" (22s)
+127.0.0.1 [21/May/2025:21:59:58 +0300] PLAY "live" "test" "" - 536 41780324 "" "LNX 9,0,124,2" (2m 14s)
+127.0.0.1 [21/May/2025:22:03:08 +0300] PLAY "live" "test" "" - 410 4777 "" "LNX 9,0,124,2" (5s)
+127.0.0.1 - - [21/May/2025:22:03:15 +0300] "GET /stat HTTP/1.1" 200 1391 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+127.0.0.1 [21/May/2025:22:03:28 +0300] PLAY "live" "test" "" - 410 4777 "" "LNX 9,0,124,2" (5s)
+127.0.0.1 [21/May/2025:22:05:19 +0300] PLAY "live" "test" "" - 446 10620472 "" "LNX 9,0,124,2" (34s)
+127.0.0.1 [21/May/2025:22:09:58 +0300] PLAY "live" "test" "" - 494 26704399 "" "LNX 9,0,124,2" (3m 3s)
+127.0.0.1 [21/May/2025:22:39:56 +0300] PUBLISH "live" "test" "" - 961697951 529 "" "FMLE/3.0 (compatible; FMSc/1.0)" (50m 54s)
+127.0.0.1 [24/May/2025:21:58:19 +0300] PLAY "live" "test" "" - 368 436 "" "LNX 9,0,124,2" (29s)
+127.0.0.1 [24/May/2025:21:58:50 +0300] PLAY "live" "test" "" - 368 436 "" "LNX 9,0,124,2" (29s)
+127.0.0.1 [24/May/2025:22:02:41 +0300] PUBLISH "live" "test" "" - 53099828 529 "" "FMLE/3.0 (compatible; FMSc/1.0)" (2m 50s)
+127.0.0.1 - - [24/May/2025:22:03:52 +0300] "GET /stat HTTP/1.1" 200 571 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+127.0.0.1 - - [24/May/2025:22:03:52 +0300] "GET /stat HTTP/1.1" 200 571 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+127.0.0.1 - - [24/May/2025:22:03:52 +0300] "GET /stat.xsl HTTP/1.1" 304 0 "http://localhost:8080/stat" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+127.0.0.1 - - [24/May/2025:22:03:55 +0300] "GET /stat HTTP/1.1" 200 571 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+127.0.0.1 - - [24/May/2025:22:04:11 +0300] "GET /stat HTTP/1.1" 200 571 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+127.0.0.1 - - [24/May/2025:22:04:13 +0300] "GET /stat HTTP/1.1" 200 571 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+127.0.0.1 - - [24/May/2025:22:04:46 +0300] "GET /stat HTTP/1.1" 200 571 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+127.0.0.1 [24/May/2025:22:05:19 +0300] PUBLISH "live" "test" "" - 3851724 529 "" "FMLE/3.0 (compatible; FMSc/1.0)" (16s)
+127.0.0.1 - - [24/May/2025:22:05:39 +0300] "GET /stat HTTP/1.1" 200 1382 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+127.0.0.1 [24/May/2025:22:06:00 +0300] PLAY "live" "test" "" - 410 48326 "" "LNX 9,0,124,2" (5s)
+127.0.0.1 [24/May/2025:22:06:54 +0300] PLAY "live" "test" "" - 368 635392 "" "LNX 9,0,124,2" (1m 4s)
+127.0.0.1 - - [24/May/2025:22:14:53 +0300] "GET /stat HTTP/1.1" 200 1391 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+127.0.0.1 [24/May/2025:22:21:39 +0300] PLAY "live" "test" "" - 412 13235852 "" "LNX 9,0,124,2" (6m 31s)
+127.0.0.1 [24/May/2025:22:43:02 +0300] PLAY "live" "test" "" - 563 64986225 "" "LNX 9,0,124,2" (3m 31s)
+127.0.0.1 [24/May/2025:22:43:02 +0300] PLAY "live" "test" "" - 571 67345977 "" "LNX 9,0,124,2" (3m 34s)
+127.0.0.1 - - [24/May/2025:22:46:24 +0300] "GET /stat HTTP/1.1" 200 1398 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+127.0.0.1 [24/May/2025:22:46:40 +0300] PLAY "live" "test" "" - 410 4777 "" "LNX 9,0,124,2" (5s)
+127.0.0.1 [24/May/2025:22:47:30 +0300] PLAY "live" "test" "" - 425 18141757 "" "LNX 9,0,124,2" (58s)
+127.0.0.1 [24/May/2025:22:47:53 +0300] PLAY "live" "test" "" - 410 4777 "" "LNX 9,0,124,2" (5s)
+127.0.0.1 [24/May/2025:22:53:32 +0300] PLAY "live" "test" "" - 702 105778085 "" "LNX 9,0,124,2" (5m 38s)
+127.0.0.1 [24/May/2025:22:57:08 +0300] PLAY "live" "test" "" - 396 8061628 "" "LNX 9,0,124,2" (29s)
+127.0.0.1 [24/May/2025:22:57:46 +0300] PLAY "live" "test" "" - 404 11662143 "" "LNX 9,0,124,2" (36s)
+127.0.0.1 [24/May/2025:22:57:46 +0300] PLAY "live" "test" "" - 436 22052908 "" "LNX 9,0,124,2" (1m 11s)
+127.0.0.1 [24/May/2025:22:58:12 +0300] PUBLISH "live" "test" "" - 997728008 529 "" "FMLE/3.0 (compatible; FMSc/1.0)" (52m 45s)
+127.0.0.1 [28/May/2025:19:36:22 +0300] PLAY "live" "test" "" - 410 4777 "" "LNX 9,0,124,2" (5s)
+127.0.0.1 [28/May/2025:19:36:43 +0300] PLAY "live" "test" "" - 388 6082782 "" "LNX 9,0,124,2" (20s)
+127.0.0.1 [28/May/2025:19:36:48 +0300] PUBLISH "live" "test" "" - 12428849 529 "" "FMLE/3.0 (compatible; FMSc/1.0)" (40s)

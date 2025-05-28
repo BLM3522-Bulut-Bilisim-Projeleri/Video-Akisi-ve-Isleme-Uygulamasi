@@ -1,0 +1,194 @@
+2025/05/19 11:24:46 [notice] 6884#25548: using the "select" event method
+2025/05/19 11:24:46 [notice] 6884#25548: nginx/1.13.12
+2025/05/19 11:24:46 [info] 6884#25548: OS: 260200 build:9200, "", suite:300, type:1
+2025/05/19 11:24:46 [notice] 6884#25548: start worker processes
+2025/05/19 11:24:46 [notice] 6884#25548: start worker process 14232
+2025/05/19 11:24:46 [notice] 14232#18060: nginx/1.13.12
+2025/05/19 11:24:46 [info] 14232#18060: OS: 260200 build:9200, "", suite:300, type:1
+2025/05/19 11:24:46 [notice] 14232#18060: create thread 15916
+2025/05/19 11:24:46 [notice] 14232#18060: create thread 24672
+2025/05/19 11:24:46 [notice] 14232#18060: create thread 1972
+2025/05/19 11:25:03 [error] 14232#15916: *1 CreateFile() "C:\Users\edana\Desktop\nginx-rtmp\nginx-rtmp-win32-1.2.1/html/history/history.css" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /history/history.css HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2025/05/19 11:25:03 [error] 14232#15916: *1 CreateFile() "C:\Users\edana\Desktop\nginx-rtmp\nginx-rtmp-win32-1.2.1/html/history/history.js" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /history/history.js HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2025/05/19 11:25:03 [error] 14232#15916: *2 CreateFile() "C:\Users\edana\Desktop\nginx-rtmp\nginx-rtmp-win32-1.2.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/"
+2025/05/19 11:26:03 [info] 14232#15916: *3 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2025/05/19 11:26:55 [info] 14232#15916: *4 client connected '127.0.0.1'
+2025/05/19 11:26:55 [info] 14232#15916: *4 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live' tc_url='rtmp://localhost/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:26:55 [info] 14232#15916: *4 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:26:55 [info] 14232#15916: *4 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:32:21 [info] 14232#15916: *5 client connected '127.0.0.1'
+2025/05/19 11:32:21 [info] 14232#15916: *5 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:32:21 [info] 14232#15916: *5 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:32:21 [info] 14232#15916: *5 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:32:26 [info] 14232#15916: *5 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:32:26 [info] 14232#15916: *5 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:32:26 [info] 14232#15916: *5 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:32:26 [info] 14232#15916: *5 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:35:58 [info] 14232#15916: *7 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2025/05/19 11:35:58 [info] 14232#15916: *8 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2025/05/19 11:36:20 [info] 14232#15916: *4 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:36:20 [info] 14232#15916: *4 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:36:20 [info] 14232#15916: *4 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:36:20 [info] 14232#15916: *4 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:36:24 [info] 14232#15916: *9 client connected '127.0.0.1'
+2025/05/19 11:36:24 [info] 14232#15916: *9 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live' tc_url='rtmp://localhost/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:36:24 [info] 14232#15916: *9 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:36:24 [info] 14232#15916: *9 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:37:08 [info] 14232#15916: *9 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:37:08 [info] 14232#15916: *9 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:37:08 [info] 14232#15916: *9 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:37:08 [info] 14232#15916: *9 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:37:43 [info] 14232#15916: *11 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2025/05/19 11:37:43 [info] 14232#15916: *12 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2025/05/19 11:38:05 [info] 14232#15916: *13 client connected '127.0.0.1'
+2025/05/19 11:38:05 [info] 14232#15916: *13 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live' tc_url='rtmp://localhost/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:38:05 [info] 14232#15916: *13 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:38:05 [info] 14232#15916: *13 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:39:24 [info] 14232#15916: *15 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2025/05/19 11:39:24 [info] 14232#15916: *16 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2025/05/19 11:39:40 [info] 14232#15916: *13 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:39:40 [info] 14232#15916: *13 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:39:40 [info] 14232#15916: *13 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:39:40 [info] 14232#15916: *13 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:42:37 [notice] 12496#15744: using the "select" event method
+2025/05/19 11:42:37 [notice] 12496#15744: nginx/1.13.12
+2025/05/19 11:42:37 [info] 12496#15744: OS: 260200 build:9200, "", suite:300, type:1
+2025/05/19 11:42:37 [notice] 12496#15744: start worker processes
+2025/05/19 11:42:37 [notice] 12496#15744: start worker process 9608
+2025/05/19 11:42:37 [notice] 9608#13764: nginx/1.13.12
+2025/05/19 11:42:37 [info] 9608#13764: OS: 260200 build:9200, "", suite:300, type:1
+2025/05/19 11:42:37 [notice] 9608#13764: create thread 15816
+2025/05/19 11:42:37 [notice] 9608#13764: create thread 16524
+2025/05/19 11:42:37 [notice] 9608#13764: create thread 2472
+2025/05/19 11:43:18 [info] 14232#15916: *17 client connected '127.0.0.1'
+2025/05/19 11:43:18 [info] 14232#15916: *17 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live' tc_url='rtmp://localhost/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:43:18 [info] 14232#15916: *17 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:43:18 [info] 14232#15916: *17 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:44:27 [info] 14232#15916: *17 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:44:27 [info] 14232#15916: *17 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:44:27 [info] 14232#15916: *17 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:44:27 [info] 14232#15916: *17 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:44:42 [info] 14232#15916: *19 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2025/05/19 11:51:36 [notice] 14296#21076: signal process started
+2025/05/19 11:51:36 [notice] 12496#15744: exiting
+2025/05/19 11:51:36 [notice] 9608#13764: gracefully shutting down
+2025/05/19 11:51:36 [notice] 9608#16524: exiting
+2025/05/19 11:51:37 [notice] 9608#15816: exiting
+2025/05/19 11:51:37 [notice] 9608#13764: exit
+2025/05/19 11:51:37 [notice] 12496#15744: worker process 9608 exited with code 0
+2025/05/19 11:51:37 [notice] 12496#15744: exit
+2025/05/19 11:51:44 [notice] 12472#24908: using the "select" event method
+2025/05/19 11:51:44 [notice] 12472#24908: nginx/1.13.12
+2025/05/19 11:51:44 [info] 12472#24908: OS: 260200 build:9200, "", suite:300, type:1
+2025/05/19 11:51:44 [notice] 12472#24908: start worker processes
+2025/05/19 11:51:44 [notice] 12472#24908: start worker process 19400
+2025/05/19 11:51:45 [notice] 19400#19016: nginx/1.13.12
+2025/05/19 11:51:45 [info] 19400#19016: OS: 260200 build:9200, "", suite:300, type:1
+2025/05/19 11:51:45 [notice] 19400#19016: create thread 8152
+2025/05/19 11:51:45 [notice] 19400#19016: create thread 21836
+2025/05/19 11:51:45 [notice] 19400#19016: create thread 22316
+2025/05/19 11:52:31 [info] 14232#15916: *20 client connected '127.0.0.1'
+2025/05/19 11:52:31 [info] 14232#15916: *20 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live' tc_url='rtmp://localhost/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:52:31 [info] 14232#15916: *20 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:52:31 [info] 14232#15916: *20 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:53:31 [info] 14232#15916: *23 client connected '127.0.0.1'
+2025/05/19 11:53:31 [info] 14232#15916: *23 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:53:31 [info] 14232#15916: *23 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:53:31 [info] 14232#15916: *23 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:53:36 [info] 14232#15916: *23 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:53:36 [info] 14232#15916: *23 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:53:36 [info] 14232#15916: *23 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:53:36 [info] 14232#15916: *23 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:53:57 [info] 14232#15916: *22 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2025/05/19 11:59:24 [info] 14232#15916: *20 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:59:24 [info] 14232#15916: *20 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:59:24 [info] 14232#15916: *20 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 11:59:24 [info] 14232#15916: *20 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:02:13 [info] 14232#15916: *24 client connected '127.0.0.1'
+2025/05/19 12:02:13 [info] 14232#15916: *24 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live' tc_url='rtmp://localhost/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:02:13 [info] 14232#15916: *24 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:02:13 [info] 14232#15916: *24 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:04:13 [info] 14232#15916: *26 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2025/05/19 12:04:22 [info] 14232#15916: *24 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:04:22 [info] 14232#15916: *24 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:04:22 [info] 14232#15916: *24 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:04:22 [info] 14232#15916: *24 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:05:29 [info] 14232#15916: *27 client connected '127.0.0.1'
+2025/05/19 12:05:29 [info] 14232#15916: *27 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live' tc_url='rtmp://localhost/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:05:29 [info] 14232#15916: *27 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:05:29 [info] 14232#15916: *27 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:06:39 [info] 14232#15916: *29 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2025/05/19 12:06:40 [info] 14232#15916: *30 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2025/05/19 12:06:44 [info] 14232#15916: *27 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:06:44 [info] 14232#15916: *27 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:06:44 [info] 14232#15916: *27 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:06:44 [info] 14232#15916: *27 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:07:26 [info] 14232#15916: *31 client connected '127.0.0.1'
+2025/05/19 12:07:26 [info] 14232#15916: *31 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live' tc_url='rtmp://localhost/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:07:26 [info] 14232#15916: *31 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:07:26 [info] 14232#15916: *31 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:09:05 [info] 14232#15916: *32 client connected '127.0.0.1'
+2025/05/19 12:09:05 [info] 14232#15916: *32 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:09:05 [info] 14232#15916: *32 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:09:05 [info] 14232#15916: *32 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:10:15 [info] 14232#15916: *32 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:10:15 [info] 14232#15916: *32 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:10:15 [info] 14232#15916: *32 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:10:47 [error] 14232#15916: *33 CreateFile() "C:\Users\edana\Desktop\nginx-rtmp\nginx-rtmp-win32-1.2.1/temp/hls/test.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/test.m3u8 HTTP/1.1", host: "localhost:8080"
+2025/05/19 12:11:47 [info] 14232#15916: *34 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2025/05/19 12:11:48 [info] 14232#15916: *35 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2025/05/19 12:15:49 [info] 14232#15916: *31 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:15:49 [info] 14232#15916: *31 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:15:49 [info] 14232#15916: *31 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:15:49 [info] 14232#15916: *31 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:16:05 [info] 14232#15916: *39 client connected '127.0.0.1'
+2025/05/19 12:16:05 [info] 14232#15916: *39 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live' tc_url='rtmp://localhost/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:16:05 [info] 14232#15916: *39 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:16:05 [info] 14232#15916: *39 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:16:34 [info] 14232#15916: *37 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2025/05/19 12:16:34 [info] 14232#15916: *38 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2025/05/19 12:21:38 [info] 14232#15916: *40 client connected '127.0.0.1'
+2025/05/19 12:21:38 [info] 14232#15916: *40 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:21:38 [info] 14232#15916: *40 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:21:38 [info] 14232#15916: *40 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:22:04 [info] 14232#15916: *40 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:22:04 [info] 14232#15916: *40 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:22:04 [info] 14232#15916: *40 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:22:11 [info] 14232#15916: *39 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:22:11 [info] 14232#15916: *39 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:22:11 [info] 14232#15916: *39 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:22:11 [info] 14232#15916: *39 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:31:33 [info] 14232#15916: *42 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2025/05/19 12:32:14 [info] 14232#15916: *43 client connected '127.0.0.1'
+2025/05/19 12:32:14 [info] 14232#15916: *43 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://localhost/live' tc_url='rtmp://localhost/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:32:14 [info] 14232#15916: *43 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:32:14 [info] 14232#15916: *43 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:32:35 [info] 14232#15916: *44 client connected '127.0.0.1'
+2025/05/19 12:32:35 [info] 14232#15916: *44 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:32:35 [info] 14232#15916: *44 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:32:35 [info] 14232#15916: *44 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:34:09 [info] 14232#15916: *46 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2025/05/19 12:34:09 [info] 14232#15916: *47 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2025/05/19 12:37:46 [info] 14232#15916: *48 client connected '127.0.0.1'
+2025/05/19 12:37:46 [info] 14232#15916: *48 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:37:46 [info] 14232#15916: *48 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:37:46 [info] 14232#15916: *48 play: name='test' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:37:52 [info] 14232#15916: *48 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:37:52 [info] 14232#15916: *48 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:37:52 [info] 14232#15916: *48 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:37:52 [info] 14232#15916: *48 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:39:27 [info] 14232#15916: *50 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2025/05/19 12:39:28 [info] 14232#15916: *51 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2025/05/19 12:41:54 [info] 14232#15916: *53 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2025/05/19 12:41:54 [info] 14232#15916: *54 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2025/05/19 12:44:19 [info] 14232#15916: *44 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:44:19 [info] 14232#15916: *44 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:44:19 [info] 14232#15916: *44 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:44:24 [info] 14232#15916: *43 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:44:24 [info] 14232#15916: *43 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:44:24 [info] 14232#15916: *43 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:44:24 [info] 14232#15916: *43 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2025/05/19 12:44:30 [info] 14232#15916: *56 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2025/05/19 12:44:30 [info] 14232#15916: *57 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while waiting for request, client: 127.0.0.1, server: 0.0.0.0:8080
+2025/05/21 21:53:03 [error] 9244#8980: *2 CreateFile() "C:\Users\edana\Desktop\nginx-rtmp\nginx-rtmp-win32-1.2.1/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/stat"
+2025/05/24 22:58:34 [notice] 25232#26344: signal process started
