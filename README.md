@@ -3,7 +3,7 @@
 Gerçek zamanlı RTMP video akışını alıp analiz eden, Google Cloud Video Intelligence API ile entegre çalışan ve analiz sonuçlarını MongoDB'ye kaydeden bir Python tabanlı video işleme uygulamasıdır.
 
 ---
-
+**Youtube:** https://youtu.be/VkGpLgxPf9k
 ## Özellikler
 
 *  RTMP yayını alır ve görüntüleri işler (`rtmp_viewer.py`)
